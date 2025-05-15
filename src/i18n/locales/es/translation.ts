@@ -8,7 +8,7 @@ const esTranslation = {
   home: {
     welcome: 'Te doy la bienvenida a mi portfolio',
     name: 'Soy Agustín Colaci',
-    role: 'Front end Developer con experiencia en QA Manual y UX/UI Design',
+    role: 'Front end Developer con experiencia en QA Manual y Diseño UX/UI',
     description: 'En este sitio podrás ver mi experiencia y los proyectos que realicé.',
     aboutButton: 'Sobre mí',
     projectsButton: 'Mis Proyectos',
@@ -24,34 +24,28 @@ const esTranslation = {
     items: [
       {
         id: 1,
-        title: 'Aplicación Web E-commerce',
-        description: 'E-commerce desarrollado con React, integración de pasarela de pagos y gestión de productos.',
-        link: '#',
+        title: 'Sitio Web Inmobiliaria',
+        description: 'App desarrollada con React y Next.js',
+        link: 'https://grippopropiedades.com.ar/',
       },
       {
         id: 2,
-        title: 'Dashboard Analítico',
-        description: 'Panel de control con visualización de datos en tiempo real, desarrollado con React y D3.js.',
-        link: '#',
+        title: 'Research UX',
+        description: 'Investigación de mercado, realización de proto-persona y armado de flujo.',
+        link: 'https://www.figma.com/board/lrtlRzxjXLkcpBQdKhyrXO/Grippo-Inmobiliaria?t=56VUW89uK8JKwTZ8-1',
       },
       {
         id: 3,
-        title: 'Rediseño UX/UI',
-        description: 'Rediseño completo de la experiencia del usuario para una aplicación de gestión empresarial.',
-        link: '#',
+        title: 'Diseño UI',
+        description: 'Diseño de la interfaz para sitio web de una inmobiliaria.',
+        link: 'https://www.figma.com/design/k7moB1vHSey3HN5WRd4ebh/Grippo-Inmobiliaria?node-id=1-4&t=MBLNg6zBRgfyFLbx-1',
       },
       {
         id: 4,
-        title: 'Sistema de Reservas',
-        description: 'Aplicación para gestión de reservas con calendario interactivo y notificaciones.',
-        link: '#',
-      },
-      {
-        id: 5,
-        title: 'Aplicación Móvil',
-        description: 'App desarrollada con React Native para gestión de tareas personales.',
-        link: '#',
-      },
+        title: 'Tic-Tac-Toe',
+        description: 'Tic tac toe realizado con Vue.js y TypeScript para adquirir nuevos conocimientos.',
+        link: 'https://tic-tac-toe-agus-colaci.vercel.app/',
+      }
     ]
   },
   contact: {

@@ -22,7 +22,7 @@ export const Contact: React.FC = () => {
           {t('contact.title')}
         </h2>
 
-        <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
+        <div className="grid grid-cols-1 gap-8">
           <ContactItem 
             icon={<Mail size={24} />} 
             label="Email" 

@@ -4,11 +4,22 @@ import { useInView } from 'react-intersection-observer';
 import { FileDown } from 'lucide-react';
 
 export const About: React.FC = () => {
-  const { t } = useTranslation();
+  const { t, i18n } = useTranslation();
   const { ref, inView } = useInView({
     threshold: 0.1,
     triggerOnce: true,
   });
+
+  const handleDownload = () => {
+    const lang = i18n.language;
+    const fileName = lang === 'es' ? 'cv_es.pdf' : 'cv_en.pdf';
+    const link = document.createElement('a');
+    link.href = `/${fileName}`;
+    link.download = fileName;
+    document.body.appendChild(link);
+    link.click();
+    document.body.removeChild(link);
+  };
 
   return (
     <div className="container mx-auto px-4 md:px-6 py-12">
@@ -30,10 +41,7 @@ export const About: React.FC = () => {
           <div className="flex justify-center">
             <button 
               className="flex items-center gap-2 px-6 py-3 bg-accent-500 text-white font-medium rounded-md shadow-md hover:bg-accent-600 transition-all transform hover:-translate-y-1 hover:shadow-lg"
-              onClick={() => {
-                // This would typically download a CV file
-                alert('CV download functionality would be implemented here');
-              }}
+              onClick={handleDownload}
             >
               <FileDown size={20} />
               {t('about.downloadCV')}

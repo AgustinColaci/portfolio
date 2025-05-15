@@ -49,7 +49,7 @@ export const Header: React.FC = () => {
               scrollToSection('home');
             }}
           >
-            A.C
+            AGUSTIN COLACI
           </a>
 
           {/* Mobile menu button */}
