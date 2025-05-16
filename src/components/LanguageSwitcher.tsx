@@ -13,7 +13,7 @@ export const LanguageSwitcher: React.FC = () => {
   return (
     <button
       onClick={toggleLanguage}
-      className="flex items-center gap-2 px-3 py-2 text-sm font-medium text-gray-700 hover:text-primary-600 transition-colors"
+      className="flex items-center gap-2 px-3 py-2 text-sm font-medium text-white hover:text-black transition-colors"
       aria-label={i18n.language === 'es' ? 'Switch to English' : 'Cambiar a Español'}
     >
       <Globe size={16} />

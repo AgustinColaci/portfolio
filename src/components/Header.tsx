@@ -35,15 +35,15 @@ export const Header: React.FC = () => {
     <header
       className={`fixed top-0 left-0 right-0 z-50 transition-all duration-300 ease-in-out ${
         isScrolled
-          ? 'bg-white bg-opacity-90 backdrop-blur-sm shadow-md py-4'
-          : 'bg-transparent py-6'
+          ? 'bg-primary-700 bg-opacity-90 backdrop-blur-sm shadow-md py-4'
+          : 'bg-primary-600 py-6'
       }`}
     >
       <div className="container mx-auto px-4 md:px-6">
         <div className="flex justify-between items-center">
           <a
             href="#home"
-            className="text-primary-700 font-bold text-2xl transition-colors hover:text-primary-500"
+            className="text-white font-bold text-2xl transition-colors hover:text-black"
             onClick={(e) => {
               e.preventDefault();
               scrollToSection('home');
@@ -54,7 +54,7 @@ export const Header: React.FC = () => {
 
           {/* Mobile menu button */}
           <button
-            className="md:hidden flex items-center text-gray-800"
+            className="md:hidden flex items-center text-white"
             onClick={() => setIsMenuOpen(!isMenuOpen)}
             aria-label={isMenuOpen ? 'Close menu' : 'Open menu'}
           >
@@ -67,8 +67,8 @@ export const Header: React.FC = () => {
               <a
                 key={item}
                 href={`#${item}`}
-                className={`text-sm font-medium transition-colors hover:text-primary-600 ${
-                  isScrolled ? 'text-gray-800' : 'text-gray-800'
+                className={`text-sm font-medium transition-colors hover:text-black ${
+                  isScrolled ? 'text-white' : 'text-white'
                 }`}
                 onClick={(e) => {
                   e.preventDefault();

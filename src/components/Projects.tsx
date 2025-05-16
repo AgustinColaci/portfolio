@@ -17,6 +17,7 @@ export const Projects: React.FC = () => {
       title: string;
       description: string;
       link: string;
+      image: string;
     }>;
   };
 
@@ -43,7 +44,10 @@ export const Projects: React.FC = () => {
               }`}
               style={{ transitionDelay: `${index * 100}ms` }}
             >
-              <div className="h-40 bg-gradient-to-r from-primary-500 to-primary-700"></div>
+              <div
+                className="h-40 bg-cover bg-center"
+                style={{ backgroundImage: `url(${project.image})` }}
+              ></div>
               <div className="p-6">
                 <h3 className="text-xl font-bold text-gray-800 mb-3">{project.title}</h3>
                 <p className="text-gray-600 mb-6">{project.description}</p>

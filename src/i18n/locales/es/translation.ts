@@ -27,24 +27,28 @@ const esTranslation = {
         title: 'Sitio Web Inmobiliaria',
         description: 'App desarrollada con React y Next.js',
         link: 'https://grippopropiedades.com.ar/',
+        image: "/images/code.jpg"
       },
       {
         id: 2,
         title: 'Research UX',
         description: 'Investigación de mercado, realización de proto-persona y armado de flujo.',
         link: 'https://www.figma.com/board/lrtlRzxjXLkcpBQdKhyrXO/Grippo-Inmobiliaria?t=56VUW89uK8JKwTZ8-1',
+        image: "/images/research-ux.jpg"
       },
       {
         id: 3,
         title: 'Diseño UI',
         description: 'Diseño de la interfaz para sitio web de una inmobiliaria.',
         link: 'https://www.figma.com/design/k7moB1vHSey3HN5WRd4ebh/Grippo-Inmobiliaria?node-id=1-4&t=MBLNg6zBRgfyFLbx-1',
+        image: "/images/ui-design.png"
       },
       {
         id: 4,
         title: 'Tic-Tac-Toe',
         description: 'Tic tac toe realizado con Vue.js y TypeScript para adquirir nuevos conocimientos.',
         link: 'https://tic-tac-toe-agus-colaci.vercel.app/',
+        image: "/images/programming.jpg"
       }
     ]
   },
