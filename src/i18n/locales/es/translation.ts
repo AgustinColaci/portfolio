@@ -8,14 +8,14 @@ const esTranslation = {
   home: {
     welcome: 'Te doy la bienvenida a mi portfolio',
     name: 'Soy Agustín Colaci',
-    role: 'Front end Developer con experiencia en QA Manual y Diseño UX/UI',
+    role: 'Front end Developer con experiencia en Diseño UX/UI',
     description: 'En este sitio podrás ver mi experiencia y los proyectos que realicé.',
     aboutButton: 'Sobre mí',
     projectsButton: 'Mis Proyectos',
   },
   about: {
     title: 'Sobre mí',
-    content: 'Profesional IT con 5 años de experiencia, especializado en desarrollo Frontend, QA y UX/UI. Me enfoco en la creación de interfaces modernas, escalables y accesibles, con una fuerte orientación hacia la experiencia del usuario. Cuento con experiencia en React, HTML, CSS y JavaScript. También trabajé en QA manual, realizando control de calidad en el desarrollo de portales personalizados. Participé en proyectos de diseño UX/UI, abarcando diseño de interfaces y validación de flujos. Busco desafíos que me permitan seguir creciendo profesionalmente, aportar ideas y colaborar en equipo.',
+    content: 'Profesional IT con 5 años de experiencia, especializado en desarrollo Frontend y diseño UX/UI. Me enfoco en la creación de interfaces modernas, escalables y accesibles, con una fuerte orientación hacia la experiencia del usuario. Cuento con experiencia en React, HTML, CSS y JavaScript. También participé en proyectos de diseño UX/UI, abarcando diseño de interfaces y validación de flujos. Busco desafíos que me permitan seguir creciendo profesionalmente, aportar ideas y colaborar en equipo.',
     downloadCV: 'Descargar CV',
   },
   projects: {
