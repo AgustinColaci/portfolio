@@ -8,7 +8,7 @@ const esTranslation = {
   home: {
     welcome: 'Te doy la bienvenida a mi portfolio',
     name: 'Soy Agustín Colaci',
-    role: 'Front end Developer con experiencia en QA Manual y Diseño UX/UI',
+    role: 'Font end Developer con experiencia en QA Manual y Diseño UX/UI',
     description: 'En este sitio podrás ver mi experiencia y los proyectos que realicé.',
     aboutButton: 'Sobre mí',
     projectsButton: 'Mis Proyectos',
